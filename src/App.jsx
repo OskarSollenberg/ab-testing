@@ -3,7 +3,7 @@ import Control from "./components/Control";
 import VariantB from "./components/VariantB";
 import CTA from "./components/CTA";
 
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function App() {
   const [variant, setVariant] = useState("");
