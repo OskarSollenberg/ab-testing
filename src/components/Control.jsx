@@ -1,6 +1,6 @@
 export default function Control() {
   return (
-    <section className={`text-center max-w-[80%]`}>
+    <section className={`text-center max-w-[80%] mt-[10rem]`}>
       <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
         What is A/B testing ?
       </h1>

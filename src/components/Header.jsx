@@ -7,7 +7,7 @@ const navigation = [
 
 export default function Header() {
   return (
-    <header className="absolute hidden sm:flex h-[60px] inset-x-0 top-0 z-50  justify-center items-center">
+    <header className="hidden sm:flex h-[60px] inset-x-0 justify-center items-center">
       <nav>
         <ul className="flex gap-[4rem]">
           {navigation.map((navItem) => {

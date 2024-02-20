@@ -21,7 +21,7 @@ export default function App() {
   return (
     <>
       <Header />
-      <main className="mt-[15rem] w-screen flex flex-col justify-center items-center">
+      <main className="w-screen flex flex-col justify-center items-center">
         {variant === "control" ? <Control /> : <VariantB />}
         <CTA variant={variant} />
       </main>
